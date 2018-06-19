@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import time
 import pyautogui
 pyautogui.FAILSAFE = False
 
@@ -21,7 +20,6 @@ x = 0
 y = 0
 
 while True:
-	start_time = time.time()
 
 	mx = 0
 
@@ -105,7 +103,7 @@ while True:
 			#pyautogui.moveRel((myd-my),0)
 
 	xpos, ypos = pyautogui.position()
-	pyautogui.moveTo(xpos+movey, ypos+movex, (time.time()-start_time)*2)
+	pyautogui.moveTo(xpos+movey, ypos+movex)
 
 	#print time.time()-start_time
 
