@@ -5,7 +5,7 @@ A python 2 program that tracks a stylus with a slightly deep blue tip using open
 * Tracking of the stylus is fairly accurate
 * The ability to right click with a short tap.
 
-# Setup:
+# Setup
 Place the camera about 19 - 23 cm above a light surface (ideally plain), facing downwards.
 
 Run the program
