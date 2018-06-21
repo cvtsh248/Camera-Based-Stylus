@@ -3,9 +3,7 @@ import numpy as np
 import pyautogui
 pyautogui.FAILSAFE = False
 
-
 cap = cv2.VideoCapture(0)
-
 
 mx = 0
 
@@ -15,9 +13,6 @@ mxd = 0
 
 myd = 0
 
-x = 0
-
-y = 0
 
 clcount = 0
 
