@@ -99,14 +99,14 @@ while True:
 
 		pass
 
-	#print (mxd - mx), (myd - my)
+
 
 	movex = 0
 
 	movey = 0
 
 	clcount = 0
-	#print time.time()-start_time
+
 
 	if abs(area-area1) > 210:
 		if clcount < 1:
@@ -119,15 +119,14 @@ while True:
 		if mxd-mx > 3 or mxd-mx < -3:
 			if mxd-mx < 120 and mxd-mx > -120:
 				movex = (mxd-mx)*5
-				#pyautogui.moveRel(0, (mxd-mx))
+
 		if myd-my > 3 or myd-my < -3:
 			if myd-my < 120 and myd-my > - 120:
 				movey = (myd - my)*5
-				#pyautogui.moveRel((myd-my),0)
+
 
 	xpos, ypos = pyautogui.position()
 
-	#for i in range(0,4):
 
 	pyautogui.moveRel(movey, movex,0.025)
 
