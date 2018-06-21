@@ -1,5 +1,4 @@
 import cv2
-from multiprocessing import Process
 import numpy as np
 import pyautogui
 pyautogui.FAILSAFE = False
