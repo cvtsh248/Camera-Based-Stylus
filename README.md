@@ -1,5 +1,5 @@
 # Camera-Based-Stylus
-A work in porgress python 2 program that tracks a stylus with a slightly deep blue tip using opencv. Based on the motion of the tip, the mouse on the computer's screen will move.
+A work in progress python 2 program that tracks a stylus with a slightly deep blue tip using opencv. Based on the motion of the tip, the mouse on the computer's screen will move.
 
 # Features
 * Tracking of the stylus is fairly accurate
